@@ -1,16 +1,41 @@
-# myapp
+# Universo dos Planetas 🌍✨
 
-A new Flutter project.
+## Descrição
+O **Universo dos Planetas** é um aplicativo desenvolvido em Flutter que permite gerenciar um catálogo de planetas, armazenando informações como nome, tamanho, distância e uma breve descrição. O aplicativo também mantém um histórico dos planetas removidos para consulta, caso necessário.
 
-## Getting Started
+## 📌 Funcionalidades
+- 📋 **Cadastro de Planetas**: Adicione novos planetas com nome, tamanho, distância e descrição.
+- 📝 **Edição de Planetas**: Atualize as informações de um planeta já cadastrado.
+- ❌ **Exclusão Segura**: Remova planetas do catálogo e armazene-os no histórico.
+- 📜 **Histórico Cósmico**: Consulte planetas que foram excluídos.
+- 🔍 **Detalhes Aprimorados**: Visualize informações completas sobre um planeta cadastrado.
 
-This project is a starting point for a Flutter application.
+## 🎨 Diferenciais da Interface
+- 🎨 **Tema em tons de amarelo** para uma identidade visual única.
+- 🌟 **Ícones personalizados** para representar cada funcionalidade.
+- 📜 **Mensagens criativas** para interatividade aprimorada.
+- 💫 **Animações suaves** ao navegar entre telas.
 
-A few resources to get you started if this is your first Flutter project:
+## 📂 Estrutura do Projeto
+```
+/
+├── lib/
+│   ├── controle/
+│   │   ├── controle_planeta.dart  # Gerenciamento do banco de dados
+│   ├── modelo/
+│   │   ├── planeta.dart  # Modelo de dados do planeta
+│   ├── telas/
+│   │   ├── tela_planeta.dart  # Tela de cadastro e edição
+│   │   ├── tela_historico.dart  # Tela do histórico
+│   │   ├── tela_detalhes.dart  # Tela de detalhes do planeta
+│   ├── main.dart  # Tela inicial e navegação
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Tecnologias Utilizadas
+- 🛠 **Flutter** (Dart)
+- 💾 **Sqflite** para armazenamento local
+- 🎨 **Material Design** para a interface gráfica
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+Desenvolvido com ❤️ por **Amanda Vilalva** 🚀
+
